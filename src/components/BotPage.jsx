@@ -8,39 +8,39 @@ export default function BotPage({ onBack }) {
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             <path d="M19 12H5m7-7l-7 7 7 7" />
           </svg>
-          BACK
+          VOLVER
         </button>
         <header className="cs2-header">
           <h1>CS<span>2</span></h1>
-          <p className="sub">Discord Bot</p>
+          <p className="sub">Bot de Discord</p>
         </header>
       </div>
 
       <div className="bot-monitor monitor">
         <div className="monitor-label">
           <span className="dot" />
-          COMMANDS
+          COMANDOS
         </div>
         <div className="monitor-screen bot-screen">
           <div className="cmd-line">
-            <span className="cmd-tag">COMMAND</span>
+            <span className="cmd-tag">COMANDO</span>
             <span className="cmd-name">/sortear</span>
           </div>
           <p className="cmd-desc">
-            Sorts 10 players into 2 teams (Terrorists vs Counter-Terrorists) randomly.
+            Ordena aleatoriamente 10 jugadores en 2 equipos (Terrorists vs Counter-Terrorists).
           </p>
 
           <div className="cmd-section">
-            <span className="cmd-tag">USAGE</span>
+            <span className="cmd-tag">USO</span>
             <div className="cmd-usage">
               <span className="cmd-prompt">/sortear</span>
               <span className="cmd-arg">jugadores:</span>
-              <span className="cmd-val">"player1, player2, ... player10"</span>
+              <span className="cmd-val">"jugador1, jugador2, ... jugador10"</span>
             </div>
           </div>
 
           <div className="cmd-section">
-            <span className="cmd-tag">EXAMPLE</span>
+            <span className="cmd-tag">EJEMPLO</span>
             <div className="cmd-example">
               <span className="cmd-prompt">/sortear</span>
               <span className="cmd-arg">jugadores:</span>
@@ -49,15 +49,15 @@ export default function BotPage({ onBack }) {
           </div>
 
           <div className="cmd-section">
-            <span className="cmd-tag">NOTES</span>
+            <span className="cmd-tag">NOTAS</span>
             <ul className="cmd-notes">
-              <li>Exactly 10 players required separated by commas</li>
-              <li>Players are randomly shuffled and split into 2 teams of 5</li>
-              <li>The result is posted in the channel where the command was used</li>
+              <li>Se requieren exactamente 10 jugadores separados por comas</li>
+              <li>Los jugadores se mezclan aleatoriamente y se dividen en 2 equipos de 5</li>
+              <li>El resultado se publica en el canal donde se usó el comando</li>
             </ul>
           </div>
         </div>
-        <div className="monitor-brand">BOT v1.0</div>
+        <div className="monitor-brand">BOT v1.0 — Hecho por franAndrad</div>
         <span className="monitor-led on" />
       </div>
 
