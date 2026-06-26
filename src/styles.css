@@ -439,15 +439,12 @@ body {
 
 .bot-page-header {
   width: 100%;
-  display: flex;
-  align-items: center;
-  gap: 20px;
+  position: relative;
   margin-bottom: 8px;
 }
 
 .bot-page-header .cs2-header {
   margin-bottom: 0;
-  flex: 1;
 }
 
 .back-btn {
@@ -470,6 +467,14 @@ body {
 .back-btn:hover {
   color: var(--text-bright);
   border-color: var(--text-dim);
+}
+
+.bot-page-header .back-btn {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
 }
 
 .bot-monitor {
