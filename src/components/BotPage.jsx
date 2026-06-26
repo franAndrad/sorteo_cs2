@@ -57,7 +57,7 @@ export default function BotPage({ onBack }) {
             </ul>
           </div>
         </div>
-        <div className="monitor-brand">BOT v1.0 — Hecho por franAndrad</div>
+        <div className="monitor-brand">BOT v1.0 — Hecho por Francisco Andrade</div>
         <span className="monitor-led on" />
       </div>
 
