@@ -611,4 +611,60 @@ body {
   .monitor::after {
     width: 30%;
   }
+
+  .bot-page-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .bot-page-header .back-btn {
+    position: static;
+    transform: none;
+    flex-shrink: 0;
+    padding: 6px 10px;
+    font-size: 10px;
+  }
+
+  .bot-page-header .back-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .bot-page-header .cs2-header {
+    flex: 1;
+    text-align: center;
+  }
+
+  .bot-page-header .cs2-header h1 {
+    font-size: 1.3rem;
+  }
+
+  .bot-page-header .cs2-header .sub {
+    font-size: 10px;
+  }
+
+  .bot-screen {
+    padding: 10px 12px;
+  }
+
+  .cmd-name {
+    font-size: 13px;
+  }
+
+  .cmd-desc {
+    font-size: 11px;
+  }
+
+  .cmd-usage,
+  .cmd-example {
+    font-size: 11px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .discord-btn {
+    font-size: 11px;
+    padding: 8px 16px;
+  }
 }
