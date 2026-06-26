@@ -57,7 +57,7 @@ export default function BotPage({ onBack }) {
             </ul>
           </div>
         </div>
-        <div className="monitor-brand">BOT v1.0 — Hecho por Francisco Andrade</div>
+        <div className="monitor-brand">BOT v1.0 — Hecho por <a href="https://github.com/franAndrad/bot_ds_sorteo_cs2" target="_blank" rel="noopener noreferrer" className="brand-link">Francisco Andrade</a></div>
         <span className="monitor-led on" />
       </div>
 

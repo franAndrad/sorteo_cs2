@@ -167,6 +167,19 @@ body {
   box-shadow: 0 0 6px rgba(255, 68, 34, 0.4);
 }
 
+.brand-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: rgba(80, 80, 80, 0.4);
+  transition: text-decoration-color 0.2s, color 0.2s;
+}
+
+.brand-link:hover {
+  color: var(--text);
+  text-decoration-color: var(--text-dim);
+}
+
 .monitor-brand {
   text-align: center;
   padding: 6px 0 8px;
